@@ -1,0 +1,44 @@
+.rodape{
+    position: absolute;
+    bottom: 0;
+    background-color:#C0C0C0;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content{
+    flex-grow: 1;
+}
+
+.centralizada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C0C0C0;
+}
+
+.invisivel{
+	display:none;
+}
+
+.corDestacada{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.red{
+    background-color: red;
+}
